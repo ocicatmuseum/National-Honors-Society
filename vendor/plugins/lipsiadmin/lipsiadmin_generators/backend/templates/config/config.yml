@@ -1,0 +1,13 @@
+common:
+  project: My Rails App
+  email_from: info@lipsiadmin.com
+  email_help: help@lipsiasoft.com
+
+production:
+  host_addr: http://www.lipsiasoft.com
+
+development:
+  host_addr: http://localhost:3000
+  
+test:
+  host_addr: http://localhost:3000
