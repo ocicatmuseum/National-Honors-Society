@@ -37,6 +37,7 @@ ul.x-tab-strip-top{background:#AEBBC7 none;}
 .x-toolbar-menu{background-image:url(/images/backend/bg-menu-slate.png);}
 .x-panel-header{background-image:url(/images/backend/bg-hd-slate.png);background-color:#6f839a; text-align:center; color:#343f4b;}
 /*Main Site*/
+.content{}
 .label-title{padding:5px 0px 3px 0px;color:#3764A0;border-bottom:1px dotted #C4D2E5;margin:5px 10px 0px 10px;font-size:1.2em;font-weight:bold;}
 .label-image{padding:5px 5px 5px 5px;background-color:#DFE8F6;margin:10px 10px 0px 10px;border:1px solid #99BBE8;}
 .description{font-style:italic;margin:0px 10px 5px 10px;}

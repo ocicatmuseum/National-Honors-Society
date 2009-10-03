@@ -1,0 +1,45 @@
+#toppanel
+  #panel
+    .content.clearfix
+      .left
+        %h1 Welcome to Web-Kreation
+        %h2 Sliding login panel Demo with jQuery		
+        %br
+        %p{:class => 'grey'} You can put anything you want in this sliding panel: videos, audio, images, forms... The only limit is your imagination!
+        %h2 Download
+        %p{:class => 'grey'}
+          To download this script go back to
+          = link_to 'article »',{},{:href=>'http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery'}
+      .left
+        - form_for :login, @login do |f|
+          %h1 Member Login
+          %label{:class => 'grey', :for => 'log'} Username:
+          = f.text_field :username, {:style=>'height:13px', :id=>'log', :class=>'field'}
+          %label{:class => 'grey', :for => 'pwd'} Password:
+          = f.password_field :password, {:style=>'height:13px', :id=>'pwd', :class=>'field'}
+          %br
+          %label
+            = f.check_box :rememberme
+            &nbsp; Remember Me
+          .clear
+          = f.submit :Login, :class=>'bt_login'
+          = link_to 'Lost your password?',{}, {:class=>'lost-pwd'}
+      .left.right
+        - form_for :register, @register do |f|
+          %h1 Not a member yet?
+          %label{:class => 'grey', :for => 'log'} Username:
+          = f.text_field :username, {:style=>'height:13px', :id=>'signup', :class=>'field'}
+          %label{:class => 'grey', :for => 'pwd'} Email:
+          = f.password_field :email, {:style=>'height:13px', :id=>'email', :class=>'field'}
+          %label A password will be e-mailed to you.
+          .clear
+          = f.submit :Register, :class=>'bt_register'
+  .tab
+    %ul{:class=>'login'}
+      %li{:class=>'left'} &nbsp;
+      %li Hello Guest!
+      %li{:class=>'sep'} |
+      %li{:id=>'toggle'}
+        %a{:id=>'open', :class=>'open', :href=>'#'} Login | Register
+        %a{:id=>'close', :style=>'display: none;',:class=>'close', :href=>'#'} Login | Register
+      %li{:class=>'right'} &nbsp;
