@@ -11,18 +11,18 @@
           To download this script go back to
           = link_to 'article »',{},{:href=>'http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery'}
       .left
-        - form_for :login, @login do |f|
+        - form_tag backend_sessions_path do
           %h1 Member Login
           %label.grey{:for=>'log'} Username:
-          = f.text_field :username, {:style=>'height:13px', :id=>'log', :class=>'field'}
+          = text_field_tag :email, nil, {:style=>'height:13px', :id=>'log', :class=>'field'}
           %label.grey{:for=>'pwd'} Password:
-          = f.password_field :password, {:style=>'height:13px', :id=>'pwd', :class=>'field'}
+          = password_field_tag :password, nil, {:style=>'height:13px', :id=>'pwd', :class=>'field'}
           %br
           %label
-            = f.check_box :rememberme
+            = check_box_tag :rememberme
             &nbsp; Remember Me
           .clear
-          = f.submit :Login, :class=>'bt_login'
+          = submit_tag :Login, :class=>'bt_login'
           = link_to 'Lost your password?',{}, {:class=>'lost-pwd'}
       .left.right
         - form_for :register, @register do |f|

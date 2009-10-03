@@ -10890,3 +10890,202 @@ Rendering template within layouts/backend
 Rendering backend/sessions/new
 Rendered layouts/_login (22.5ms)
 Completed in 40ms (View: 36, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
+
+
+Processing Backend::BaseController#index (for 127.0.0.1 at 2009-10-03 16:30:36) [GET]
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.5ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/base/index
+Completed in 107ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/backend]
+
+
+Processing JavascriptsController#locale to js (for 127.0.0.1 at 2009-10-03 16:30:37) [GET]
+Rendering javascripts/locale
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://127.0.0.1/javascripts/locale.js]
+
+
+Processing JavascriptsController#backend to js (for 127.0.0.1 at 2009-10-03 16:30:37) [GET]
+Rendering javascripts/backend
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Completed in 40ms (View: 37, DB: 1) | 200 OK [http://127.0.0.1/javascripts/backend.js]
+
+
+Processing BackendController#base (for 127.0.0.1 at 2009-10-03 16:30:37) [GET]
+  Parameters: {"id"=>"welcome"}
+  [4;36;1mAccount Load (0.9ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+
+ActionController::UnknownAction (No action responded to base. Actions: ):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Backend::SessionsController#index (for 127.0.0.1 at 2009-10-03 16:30:43) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and destroy):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-03 16:30:47) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0xb6faf134>) on line #24 of app/views/layouts/_login.html.haml:
+21:           %label
+22:             = f.check_box :rememberme
+23:             &nbsp; Remember Me
+24:           .clear
+25:           = submit_tag :Login, :class=>'bt_login'
+26:           = link_to 'Lost your password?',{}, {:class=>'lost-pwd'}
+27:       .left.right
+
+    app/views/layouts/_login.html.haml:24:in `_run_haml_app47views47layouts47_login46html46haml_locals_login_object'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:140:in `call'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:140:in `form_tag'
+    haml (2.2.6) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.6) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `call'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers.rb:520:in `with_haml_buffer'
+    haml (2.2.6) lib/haml/helpers.rb:321:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:86:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:146:in `form_tag'
+    app/views/layouts/_login.html.haml:14:in `_run_haml_app47views47layouts47_login46html46haml_locals_login_object'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.6) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/layouts/backend.html.haml:12:in `_run_haml_app47views47layouts47backend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (53.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-03 16:31:01) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (18.3ms)
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
+
+
+Processing Backend::SessionsController#create (for 127.0.0.1 at 2009-10-03 16:31:21) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"Mukyu2bH7vDE8DV0UphbypyXkxtT0HzjGm7CfPGfa3U=", "password"=>"blackbelt1", "email"=>"swanyboy4@gmail.com"}
+  [4;36;1mAccount Load (1.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE (email = 'swanyboy4@gmail.com') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/backend
+Completed in 31ms (DB: 1) | 302 Found [http://127.0.0.1/backend/sessions]
+
+
+Processing Backend::BaseController#index (for 127.0.0.1 at 2009-10-03 16:31:21) [GET]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/base/index
+Completed in 26ms (View: 4, DB: 1) | 200 OK [http://127.0.0.1/backend]
+
+
+Processing JavascriptsController#locale to js (for 127.0.0.1 at 2009-10-03 16:31:21) [GET]
+Rendering javascripts/locale
+Completed in 71ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/javascripts/locale.js]
+
+
+Processing JavascriptsController#backend to js (for 127.0.0.1 at 2009-10-03 16:31:21) [GET]
+Rendering javascripts/backend
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Completed in 49ms (View: 44, DB: 1) | 200 OK [http://127.0.0.1/javascripts/backend.js]
+
+
+Processing BackendController#base (for 127.0.0.1 at 2009-10-03 16:31:22) [GET]
+  Parameters: {"id"=>"welcome"}
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+
+ActionController::UnknownAction (No action responded to base. Actions: ):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Backend::AccountsController#index to js (for 127.0.0.1 at 2009-10-03 16:31:25) [GET]
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/accounts/index
+Completed in 45ms (View: 7, DB: 1) | 200 OK [http://127.0.0.1/backend/accounts.js]
+
+
+Processing Backend::AccountsController#index to json (for 127.0.0.1 at 2009-10-03 16:31:26) [GET]
+  Parameters: {"_"=>""}
+  [4;36;1mAccount Load (1.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mAccount Load (0.7ms)[0m   [0mSELECT * FROM "accounts" [0m
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" LIMIT 50[0m
+Completed in 65ms (View: 2, DB: 3) | 200 OK [http://127.0.0.1/backend/accounts.json]
+
+
+Processing Backend::SessionsController#create (for 127.0.0.1 at 2009-10-03 16:31:39) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"Mukyu2bH7vDE8DV0UphbypyXkxtT0HzjGm7CfPGfa3U=", "password"=>"fsdfs", "email"=>"swanyboy4@gmail.com"}
+  [4;35;1mAccount Load (1.0ms)[0m   [0mSELECT * FROM "accounts" WHERE (email = 'swanyboy4@gmail.com') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/backend/sessions/new
+Completed in 49ms (DB: 1) | 302 Found [http://127.0.0.1/backend/sessions]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-03 16:31:39) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (5.3ms)
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
+
+
+Processing Backend::SessionsController#create (for 127.0.0.1 at 2009-10-03 16:31:48) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"Mukyu2bH7vDE8DV0UphbypyXkxtT0HzjGm7CfPGfa3U=", "rememberme"=>"1", "password"=>"blackbelt1", "email"=>"swanyboy4@gmail.com"}
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE (email = 'swanyboy4@gmail.com') LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/backend
+Completed in 21ms (DB: 1) | 302 Found [http://127.0.0.1/backend/sessions]
+
+
+Processing Backend::BaseController#index (for 127.0.0.1 at 2009-10-03 16:31:48) [GET]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/base/index
+Completed in 21ms (View: 3, DB: 1) | 200 OK [http://127.0.0.1/backend]
+
+
+Processing JavascriptsController#locale to js (for 127.0.0.1 at 2009-10-03 16:31:49) [GET]
+Rendering javascripts/locale
+Completed in 47ms (View: 43, DB: 0) | 200 OK [http://127.0.0.1/javascripts/locale.js]
+
+
+Processing JavascriptsController#backend to js (for 127.0.0.1 at 2009-10-03 16:31:49) [GET]
+Rendering javascripts/backend
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Completed in 33ms (View: 29, DB: 0) | 200 OK [http://127.0.0.1/javascripts/backend.js]
+
+
+Processing BackendController#base (for 127.0.0.1 at 2009-10-03 16:31:49) [GET]
+  Parameters: {"id"=>"welcome"}
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+
+ActionController::UnknownAction (No action responded to base. Actions: ):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
