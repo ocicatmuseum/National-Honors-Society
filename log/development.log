@@ -11609,3 +11609,16 @@ Rendering template within layouts/backend
 Rendering backend/sessions/new
 Rendered layouts/_login (5.5ms)
 Completed in 17ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
+
+
+Processing BackendController#index (for 127.0.0.1 at 2009-10-03 18:27:35) [GET]
+Redirected to http://127.0.0.1:3000/backend/sessions/new
+Filter chain halted as [:backend_login_required] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-03 18:27:35) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (6.6ms)
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
