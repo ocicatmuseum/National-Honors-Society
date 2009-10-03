@@ -11602,3 +11602,10 @@ Rendering template within layouts/backend
 Rendering backend/sessions/new
 Rendered layouts/_login (5.6ms)
 Completed in 18ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-03 17:52:03) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (5.5ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/backend/sessions/new]
