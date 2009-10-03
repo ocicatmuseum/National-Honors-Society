@@ -72,3 +72,40 @@ table.items th{font-weight:bold;background-color:#BFCFE6;color:#15428B;padding:3
 table.items tr.odd td{background-color:#FFF;padding:3px;border-bottom:1px solid #99BBE8}
 table.items tr.even td{background-color:#FFF;padding:3px;border-bottom:1px solid #99BBE8}
 /*Custom Style Here*/
+.quick-start {
+	background-attachment: scroll;
+background-clip: border-box;
+background-color: #DEF;
+background-image: none;
+background-origin: padding-box;
+border-bottom-color: #9CF;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #9CF;
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: #9CF;
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: #9CF;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-style: solid;
+border-top-width: 1px;
+clear: both;
+display: block;
+font-size: 13px;
+font-weight: normal;
+height: 16px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+width: 925px;
+}
