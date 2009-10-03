@@ -238,7 +238,7 @@ fieldset.x-panel-collapsed .x-fieldset-bwrap{visibility:hidden;position:absolute
 .x-btn-icon .x-btn-center{padding:1px;}
 .x-btn em{font-style:normal;font-weight:normal;}
 .x-btn-text-icon .x-btn-center .x-btn-text{background-position:0 2px;background-repeat:no-repeat;padding-left:18px;padding-top:3px;padding-bottom:2px;padding-right:0;}
-.x-btn-left,.x-btn-right{font-size:1px;line-height:1px;}
+.x-btn-left,.x-btn-right{font-size:1px;line-height:1px;padding-right:0}
 .x-btn-left{width:3px;height:21px;background:url(../images/ext/default/button/btn-sprite.gif) no-repeat 0 0;}
 .x-btn-right{width:3px;height:21px;background:url(../images/ext/default/button/btn-sprite.gif) no-repeat 0 -21px;}
 .x-btn-left i,.x-btn-right i{display:block;width:3px;overflow:hidden;font-size:1px;line-height:1px;}
