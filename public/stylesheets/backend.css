@@ -73,7 +73,7 @@ table.items tr.odd td{background-color:#FFF;padding:3px;border-bottom:1px solid 
 table.items tr.even td{background-color:#FFF;padding:3px;border-bottom:1px solid #99BBE8}
 /*Custom Style Here*/
 .quick-start {
-	background-attachment: scroll;
+background-attachment: scroll;
 background-clip: border-box;
 background-color: #DEF;
 background-image: none;
@@ -107,5 +107,5 @@ padding-bottom: 10px;
 padding-left: 10px;
 padding-right: 10px;
 padding-top: 10px;
-width: 925px;
+width: 25%;
 }
