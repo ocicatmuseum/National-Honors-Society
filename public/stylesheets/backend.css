@@ -5,7 +5,8 @@
 * 
 * http://www.lipsiasoft.com
 */
-a{text-decoration:none;color:#15428b;}
+a{text-decoration:none;color:#15428b;outline:none;}
+input.btn, input[type='image'] {outline:none;}
 a:hover{text-decoration:none;color:#3764A0;}
 h3{padding-bottom:5px;color:#3764A0;}
 /*Custom CSS Form*/
