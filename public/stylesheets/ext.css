@@ -334,7 +334,7 @@ fieldset.x-panel-collapsed .x-fieldset-bwrap{visibility:hidden;position:absolute
 .x-grid3-hd-row td{line-height:15px;vertical-align:middle;border-left:1px solid #eee;border-right:1px solid #d0d0d0;}
 .x-grid3-hd-row .x-grid3-marker-hd{padding:3px;}
 .x-grid3-row .x-grid3-marker{padding:3px;}
-.x-grid3-cell-inner,.x-grid3-hd-inner{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;padding:3px 3px 3px 5px;white-space:nowrap;width:100%;}
+.x-grid3-cell-inner,.x-grid3-hd-inner{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;padding:3px 3px 3px 5px;white-space:nowrap;width:105%;}
 .x-grid3-hd-inner{position:relative;cursor:inherit;padding:4px 3px 4px 5px;}
 .x-grid3-row-body{white-space:normal;}
 .x-grid3-body-cell{-moz-outline:0 none;outline:0 none;}
