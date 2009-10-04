@@ -3,5 +3,5 @@
 document.getElementsByTagName("p").onselectstart=new Function('return false');
 function ds(e){return false;}
 function ra(){return true;}
-document.onmousedown=ds;
-document.onclick=ra;
+document.getElementsByTagName("p").onmousedown=ds;
+document.getElementsByTagName("p").onclick=ra;
