@@ -5,8 +5,7 @@ class Backend::AccountsController < BackendController
       cm.add :name
       cm.add :surname
       cm.add :email
-      cm.add :created_at, :renderer => :datetime, :align => :right
-      cm.add :updated_at, :renderer => :datetime, :align => :right
+      cm.add :created_at, :renderer => :datetime
     end
     
     respond_to do |format|
