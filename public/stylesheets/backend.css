@@ -75,21 +75,21 @@ table.items tr.even td{background-color:#FFF;padding:3px;border-bottom:1px solid
 .quick-start {
 background-attachment: scroll;
 background-clip: border-box;
-background-color: #DEF;
+background-color: #E8F5FD;
 background-image: none;
 background-origin: padding-box;
-border-bottom-color: #9CF;
+border-bottom-color: #CEEAFB;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
 border-bottom-style: solid;
 border-bottom-width: 1px;
-border-left-color: #9CF;
+border-left-color: #CEEAFB;
 border-left-style: solid;
 border-left-width: 1px;
-border-right-color: #9CF;
+border-right-color: #CEEAFB;
 border-right-style: solid;
 border-right-width: 1px;
-border-top-color: #9CF;
+border-top-color: #CEEAFB;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 border-top-style: solid;
@@ -110,6 +110,6 @@ width: 25%;
 }
 .quick-start:hover {
 	cursor:hand;
-	background-color: #E8F5FD;
-	border-color: #CEEAFB;
+	background-color: #DEF;
+	border-color: #9CF;
 	}
