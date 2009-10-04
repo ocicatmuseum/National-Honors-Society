@@ -108,7 +108,7 @@ padding-right: 10px;
 padding-top: 10px;
 width: 25%;
 }
-.quick-start h2 {color:#9CF}
+.quick-start h2 {color:#9CF; font-style:oblique;}
 .quick-start:hover {
 	cursor:hand;
 	background-color: #DEF;
