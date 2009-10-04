@@ -30,7 +30,7 @@
           %label.grey{:for=>'log'} Username:
           = f.text_field :username, {:style=>'height:13px', :id=>'signup', :class=>'field'}
           %label.grey{:for=>'pwd'} Email:
-          = f.password_field :email, {:style=>'height:13px', :id=>'email', :class=>'field'}
+          = f.text_field :email, {:style=>'height:13px', :id=>'email', :class=>'field'}
           %label A password will be e-mailed to you.
           .clear
           = f.submit :Register, :class=>'bt_register'
