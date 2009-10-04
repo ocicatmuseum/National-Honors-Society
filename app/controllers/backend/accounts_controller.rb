@@ -2,7 +2,6 @@ class Backend::AccountsController < BackendController
   def index
     params[:limit] ||= 50
     @column_store = column_store_for Account do |cm|
-      cm.add :full_name
       cm.add :name
       cm.add :surname
       cm.add :email
