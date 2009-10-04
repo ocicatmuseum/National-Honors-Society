@@ -2,11 +2,8 @@ class Backend::AccountsController < BackendController
   def index
     params[:limit] ||= 50
     @column_store = column_store_for Account do |cm|
-      cm.add :name
-      cm.add :surname
+      cm.add :full_name
       cm.add :email
-      cm.add :hours
-      cm.add :merit_points
       cm.add :created_at, :renderer => :datetime
     end
     
