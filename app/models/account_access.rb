@@ -21,10 +21,8 @@ class AccountAccess < Lipsiadmin::AccessControl::Base
     # 
     role.project_module :account do |project|
       project.menu :students,   "/backend/accounts.js" do |submenu|
-        submenu.add :create, "/backend/accounts/new"
       end
       project.menu :privileged_users,   "/backend/accounts.js" do |submenu|
-        submenu.add :create, "/backend/accounts/new"
       end
     end
     
