@@ -20,11 +20,16 @@ class AccountAccess < Lipsiadmin::AccessControl::Base
     # <tt>current_account</tt> is an instance of current logged account
     # 
     role.project_module :account do |project|
-      project.menu :list,   "/backend/accounts.js" do |submenu|
-        submenu.add :new, "/backend/accounts/new"
+      project.menu :students,   "/backend/accounts.js" do |submenu|
+        submenu.add :create, "/backend/accounts/new"
+      end
+      project.menu :privileged_users,   "/backend/accounts.js" do |submenu|
+        submenu.add :create, "/backend/accounts/new"
       end
     end
     
+    role.project_module :work,   "/backend/accounts.js" do |project|
+    end
     # Please don't remove this comment! It's used for auto adding project modules
   end
   
