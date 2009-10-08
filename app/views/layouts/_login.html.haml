@@ -40,7 +40,9 @@
       %li Hello #{name}!
       %li.sep |
       %li#toggle
-        %a.open#open{:style=>'cursor:hand'} Login | Register
+        - if controller_name == "base"
+          %a.close#logout{:style=>'cursor:hand'} Logout
+        - else
+          %a.open#open{:style=>'cursor:hand'} Login | Register
         %a.close#close{:style=>'display: none;cursor:hand'} Close
-        %a.logout#logout{:style=>'display: none;cursor:hand'} Logout
       %li.right &nbsp;
