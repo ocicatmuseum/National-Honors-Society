@@ -14,6 +14,6 @@
     -unless params[:small]
       #header
         #logo=link_to AppConfig.project, backend_path
-        #logout=link_to "Logout #{current_account.email}", backend_session_path(1), :method => :delete
+        #logout/=link_to "Logout #{current_account.email}", backend_session_path(1), :method => :delete
               
     %iframe{ :id => "ajax-iframe", :name => "ajax-iframe" }
