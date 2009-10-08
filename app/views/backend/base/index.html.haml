@@ -1,9 +1,10 @@
 %html
   %head
-    %title="#{AppConfig.project} v.#{Lipsiadmin::VERSION::STRING}"
+    %title NHS Admin
     =stylesheet_link_tag :all
     =javascript_include_tag :all
   %body
+    =render :partial => '/layouts/login',:locals => { :name => current_account.name }
     #loading-mask
     #loading
       .loading-indicator

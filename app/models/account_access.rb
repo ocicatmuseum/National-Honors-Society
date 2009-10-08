@@ -20,9 +20,9 @@ class AccountAccess < Lipsiadmin::AccessControl::Base
     # <tt>current_account</tt> is an instance of current logged account
     # 
     role.project_module :account do |project|
-      project.menu :students,   "/backend/accounts.js" do |submenu|
+      project.menu :students,   "/backend/accounts/student.js" do |submenu|
       end
-      project.menu :privileged_users,   "/backend/accounts.js" do |submenu|
+      project.menu :privileged_users,   "/backend/accountsjs" do |submenu|
       end
     end
     
