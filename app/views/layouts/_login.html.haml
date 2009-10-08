@@ -41,8 +41,8 @@
       %li.sep |
       %li#toggle
         - if controller_name == "base"
-          %a.close#logout{:style=>'cursor:hand'} Logout
+          = link_to :Logout, backend_session_path(1), :method => :delete, :class => 'close', :style=>'width: 45px;'
         - else
           %a.open#open{:style=>'cursor:hand'} Login | Register
-        %a.close#close{:style=>'display: none;cursor:hand'} Close
+          %a.close#close{:style=>'display: none;cursor:hand'} Close
       %li.right &nbsp;
