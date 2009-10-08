@@ -17113,3 +17113,21 @@ ActionController::UnknownAction (No action responded to base. Actions: ):
   -e:2
 
 Rendering rescues/layout (not_found)
+
+
+Processing Backend::AccountsController#index to js (for 127.0.0.1 at 2009-10-07 21:23:52) [GET]
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/accounts/index
+Completed in 83ms (View: 13, DB: 1) | 200 OK [http://127.0.0.1/backend/accounts.js]
+
+
+Processing Backend::AccountsController#index to json (for 127.0.0.1 at 2009-10-07 21:23:52) [GET]
+  Parameters: {"_"=>""}
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" LIMIT 50[0m
+Completed in 82ms (View: 1, DB: 2) | 200 OK [http://127.0.0.1/backend/accounts.json]
