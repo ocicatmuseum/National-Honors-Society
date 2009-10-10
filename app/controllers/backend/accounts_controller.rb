@@ -11,25 +11,11 @@ class Backend::AccountsController < BackendController
     respond_to do |format|
       format.js 
       format.json do
-        render :json => @column_store.store_data(params)
+        render :json => @column_store.store_data(params, :conditions => {:role => 'administrator'})
       end
     end
   end
-  def student
-    params[:limit] ||= 50
-    @column_store = column_store_for Account do |cm|
-      cm.add :full_name
-      cm.add :email
-      cm.add :created_at, :renderer => :datetime
-    end
-    
-    respond_to do |format|
-      format.js 
-      format.json do
-        render :json => @column_store.store_data(params)
-      end
-    end
-  end
+  
   def new
     @account = Account.new
   end

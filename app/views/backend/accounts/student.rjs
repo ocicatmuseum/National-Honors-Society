@@ -6,7 +6,7 @@ page.grid do |grid|
   grid.authenticity_token form_authenticity_token
   grid.tbar  :default
   grid.store do |store|
-    store.url "/backend/accounts.json"
+    store.url "/backend/student.json"
     store.fields @column_store.store_fields
   end
   grid.columns do |columns|
