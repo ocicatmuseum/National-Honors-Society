@@ -4,9 +4,8 @@
     %meta{:name=>"description", :content=>""}
     %meta{:content=>"text/html; charset=utf-8"}
     %title NHS Web Frontend
-    =stylesheet_link_tag 'style2', 'slide', 'login'
+    =stylesheet_link_tag {'style2', 'slide'}
     =javascript_include_tag :all
-    %script{:type=>'text/javascript', :src=>'reflection.js'}
   %body
     = render :partial => '/layouts/login'
     #wrapper{:style=>'padding-top: 1px'}
