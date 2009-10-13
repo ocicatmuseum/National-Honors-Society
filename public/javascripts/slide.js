@@ -11,10 +11,11 @@ $(document).ready(function() {
 		$("div#panel").slideUp("slow");	
 	});		
 	
-		// Collapse Panel
-	$("#close").click(function(){
-		$("div#panel").slideUp("slow");	
-	});		
+	// Collapse Panel
+	$("#cover").click(function(){
+		$("div#panel").appear("slow");	
+	});
+		
 	// Switch buttons from "Log In | Register" to "Close Panel" on click
 	$("#toggle a").click(function () {
 		$("#toggle a").toggle();
