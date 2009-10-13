@@ -28,7 +28,6 @@
     %ul.login
       %li.left &nbsp;
       %li Welcome, #{name}!
-      /%li.sep |
       %li#toggle
         - if controller_name == "base"
           = link_to :Logout, backend_session_path(1), :method => :delete, :class => 'close', :style=>'width: 45px;'
