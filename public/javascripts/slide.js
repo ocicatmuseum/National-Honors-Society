@@ -13,6 +13,7 @@ $(document).ready(function() {
 	
 	// Collapse Panel
 	$("#cover").click(function(){
+		$("#calendar").addClass("fix");
 		$("#calendar").animate({width: "1200px", height: "800px", left: "-500px", top: "50px", display: "block", position: "fixed"}, 1500);	
 	});
 		
