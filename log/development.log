@@ -28455,3 +28455,19 @@ ActionController::RoutingError (No route matches "/frontend/reflection.js" with 
   -e:2
 
 Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-09 21:39:38) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.7ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-09 21:39:39) [GET]
+
+ActionController::RoutingError (No route matches "/frontend/reflection.js" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
