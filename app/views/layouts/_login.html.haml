@@ -34,6 +34,6 @@
         - if logged_in?
           = link_to :Logout, backend_session_path(1), :method => :delete, :class => 'close', :style=>'width: 45px;'
         - else
-          %a.open#open{:style=>'cursor:hand'} Login | Register
+          %a.open#open{:style=>'cursor:hand'} Login
           %a.close#close{:style=>'display: none;cursor:hand'} Close
       %li.right &nbsp;
