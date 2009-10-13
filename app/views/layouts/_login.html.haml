@@ -27,7 +27,7 @@
   .tab
     %ul.login
       %li.left &nbsp;
-      %li Welcome, #{(name.blank?)? "Guest" : name }!
+      %li Welcome, #{(name.nil?)? "Guest" : name }!
       %li#toggle
         - if controller_name == "base"
           = link_to :Logout, backend_session_path(1), :method => :delete, :class => 'close', :style=>'width: 45px;'
