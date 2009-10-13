@@ -28713,3 +28713,116 @@ Rendering template within layouts/frontend
 Rendering frontend/base/index
 Rendered layouts/_login (3.2ms)
 Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Backend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:03:53) [GET]
+Redirected to http://0.0.0.0:3002/backend/sessions/new
+Filter chain halted as [:backend_login_required] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/backend]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-13 19:03:53) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (3.0ms)
+Completed in 52ms (View: 48, DB: 0) | 200 OK [http://0.0.0.0/backend/sessions/new]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-13 19:04:11) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (2.8ms)
+Completed in 26ms (View: 22, DB: 0) | 200 OK [http://0.0.0.0/backend/sessions/new]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-13 19:04:12) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (2.7ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/backend/sessions/new]
+
+
+Processing BackendController#index (for 127.0.0.1 at 2009-10-13 19:05:00) [GET]
+Redirected to http://0.0.0.0:3002/backend/sessions/new
+Filter chain halted as [:backend_login_required] rendered_or_redirected.
+Completed in 65ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Backend::SessionsController#new (for 127.0.0.1 at 2009-10-13 19:05:00) [GET]
+Rendering template within layouts/backend
+Rendering backend/sessions/new
+Rendered layouts/_login (1.5ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/backend/sessions/new]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-13 19:05:05) [GET]
+Redirected to http://0.0.0.0:3002/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://0.0.0.0/frontend]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:05:05) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:05:27) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-13 19:05:29) [GET]
+Redirected to http://0.0.0.0:3002/frontend/base
+Completed in 4ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:05:29) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (2.7ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:14:34) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:14:41) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:15:18) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (1.7ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:15:26) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:15:35) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.7ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:15:38) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
