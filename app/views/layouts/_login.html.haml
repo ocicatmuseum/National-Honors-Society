@@ -29,7 +29,7 @@
       %li.left &nbsp;
       %li Welcome, #{(!defined? name)? "Guest" : name }!
       %li#toggle
-        - if controller_name == "base"
+        - if logged_in?
           = link_to :Logout, backend_session_path(1), :method => :delete, :class => 'close', :style=>'width: 45px;'
         - else
           %a.open#open{:style=>'cursor:hand'} Login | Register
