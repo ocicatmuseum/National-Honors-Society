@@ -28861,3 +28861,59 @@ Rendering template within layouts/frontend
 Rendering frontend/base/index
 Rendered layouts/_login (3.2ms)
 Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:25:29) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:26:02) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:26:32) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:27:08) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.0ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:27:25) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.5ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:28:12) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:28:42) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 19:29:28) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]

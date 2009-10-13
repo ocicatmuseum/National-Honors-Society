@@ -14,9 +14,12 @@ $(document).ready(function() {
 	// Collapse Panel
 	$("#cover").click(function(){
 		$("#cal").show();
-		$("#cal").fadeTo(1200, 1);
+		$("#cal").fadeTo(1000, 1);
 	});
-		
+	$("#cal").click(function(){
+		$("#cal").fadeTo(1, 0);
+		$("#cal").hide();
+	});
 	// Switch buttons from "Log In | Register" to "Close Panel" on click
 	$("#toggle a").click(function () {
 		$("#toggle a").toggle();
