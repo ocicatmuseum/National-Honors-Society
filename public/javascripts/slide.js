@@ -13,7 +13,7 @@ $(document).ready(function() {
 	
 	// Collapse Panel
 	$("#cover").click(function(){
-		$("#calendar").appear(1500);	
+		$("#cal").appear(1500);	
 	});
 		
 	// Switch buttons from "Log In | Register" to "Close Panel" on click
