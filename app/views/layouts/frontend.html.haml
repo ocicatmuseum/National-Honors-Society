@@ -1,10 +1,41 @@
-!!!
-%html{ :xmlns=>"http://www.w3.org/1999/xhtml" }
+%html
   %head
-    %title=yield(:title) || "#{AppConfig.project}"
-    %meta{'http-equiv' => 'Content-Type', :content => 'text/html', :name => "description", :content => "#{yield(:description) || "#{AppConfig.project}"}"}
-    =stylesheet_link_tag :all
+    %meta{:name=>"keywords", :content=>""}
+    %meta{:name=>"description", :content=>""}
+    %meta{:http-equiv=>"content-type", :content=>"text/html; charset=utf-8"}
+    %title NHS Web Frontend
+    =stylesheet_link_tag 'style2', 'slide'
     =javascript_include_tag :all
+    %script{:type=>'text/javascript', :src=>'reflection.js'}
   %body
-    =render :partial => '/layouts/login'
-    =yield
+    = render :partial => '/layouts/login'
+    #wrapper{:style=>'padding-top: 1px'}
+      #page
+        %img.reflect.rheight35{:src=>'/images/nhs.png', :alt=>'', :width=>'137', :height=>'183', :style=>'margin-top:-110px'}
+        #content{:style=>'margin-top: -20px'}
+          .post
+            %h2.title National Honor Society
+            %p.meta Team Decker ha ha ha
+            .entry
+              bla bla bla
+        / end #content 
+        #sidebar
+          %ul
+            %li
+              %h2 Calendar
+            %li
+              %h2 Categories
+              %ul
+                %li
+                  %span Example
+                %li
+                  %span Example2
+        / end #sidebar 
+        %span{:style=>'margin-top:-50px'}%img.reflect.rheight100.ropacity66{:src=>'/images/background.jpg', :alt=>'', :width=>'1000', :height=>'79', :align=>'texttop', :style=>'margin-left:-50px;margin-bottom:-18px'}
+        %div{:style=>'clear:both'} &nbsp;
+      / end #page 
+      #footer
+        %p
+          (c) 2009 Sitename.com. Developed by
+          %a{:href=>"http://www.nodethirtythree.com"} Solehi Dev
+      / end #footer 
