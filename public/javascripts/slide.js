@@ -13,7 +13,7 @@ $(document).ready(function() {
 	
 	// Collapse Panel
 	$("#cover").click(function(){
-		$("div#panel").appear("slow");	
+		$("div#panel").fadeIn("slow");	
 	});
 		
 	// Switch buttons from "Log In | Register" to "Close Panel" on click
