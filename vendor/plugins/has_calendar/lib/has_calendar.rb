@@ -51,7 +51,7 @@ module SimplesIdeias
           date = today.beginning_of_week
           date = date - 1.day if RUBY_PLATFORM =~ /darwin/
         
-          caption = content_tag(:caption, l(Date.new(options[:year], options[:month], today.day), :format => options[:caption_format]))
+          caption = content_tag(:caption, Date::MONTHNAMES[options[:month]])
         
           head = content_tag(:thead) do
             content_tag(:tr) do

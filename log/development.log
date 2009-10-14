@@ -29576,3 +29576,85 @@ Rendering frontend/base/index
   [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
 Rendered layouts/_login (88.2ms)
 Completed in 155ms (View: 152, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:57:16) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (84.9ms)
+Completed in 148ms (View: 146, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:59:46) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (85.4ms)
+Completed in 150ms (View: 148, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:00:33) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (34.5ms)
+
+ActionView::TemplateError (uninitialized constant Date::MONTHNAME) on line #14 of app/views/layouts/frontend.html.haml:
+11:       = calendar
+12:     #wrapper{:style=>'padding-top: 1px'}
+13:       #page
+14:         #content{:style=>'margin-top: -20px'}
+15:           #calendar{:style=>'width: 500px; height: 300px; background: #ff0;'}
+16:             #cover{:style=>'cursor:pointer;background: #000;opacity: .6;font-size:40pt;height:100%;width:100%;',:onmouseover=>'this.style.opacity = .1;', :onmouseout=>'this.style.opacity = .6;'}
+17:               %p{:style=>'padding: 20% 30%;cursor:pointer;'}Calendar
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:14:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:00:35) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.1ms)
+
+ActionView::TemplateError (uninitialized constant Date::MONTHNAME) on line #14 of app/views/layouts/frontend.html.haml:
+11:       = calendar
+12:     #wrapper{:style=>'padding-top: 1px'}
+13:       #page
+14:         #content{:style=>'margin-top: -20px'}
+15:           #calendar{:style=>'width: 500px; height: 300px; background: #ff0;'}
+16:             #cover{:style=>'cursor:pointer;background: #000;opacity: .6;font-size:40pt;height:100%;width:100%;',:onmouseover=>'this.style.opacity = .1;', :onmouseout=>'this.style.opacity = .6;'}
+17:               %p{:style=>'padding: 20% 30%;cursor:pointer;'}Calendar
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:14:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (137.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:01:25) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (35.5ms)
+Completed in 179ms (View: 176, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
