@@ -475,3 +475,19 @@ h2 a {
 .day.other {
 	background-color:#DEDEDE;
 }
+#calendar-main{
+	width: 500px;
+	height: 300px;
+	background: #ff0;
+}
+#cover {
+	cursor:pointer;
+	background: #000;
+	opacity: .6;
+	font-size:40pt;
+	height:100%;
+	width:100%;
+}
+#cover:hover {
+	opacity: .1;
+}

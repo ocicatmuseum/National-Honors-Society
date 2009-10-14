@@ -29726,3 +29726,94 @@ Rendering frontend/base/index
   [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
 Rendered layouts/_login (28.2ms)
 Completed in 167ms (View: 162, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-13 22:20:04) [GET]
+Redirected to http://0.0.0.0:3002/frontend/base
+Completed in 2ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:20:04) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (12.1ms)
+Completed in 131ms (View: 129, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-13 22:20:16) [GET]
+Redirected to http://0.0.0.0:3002/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:20:16) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (53.6ms)
+Completed in 115ms (View: 110, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:20:23) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (15.0ms)
+Completed in 52ms (View: 49, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:21:18) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.4ms)
+Completed in 195ms (View: 191, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:21:26) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.8ms)
+Completed in 90ms (View: 86, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:23:38) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (18.0ms)
+Completed in 77ms (View: 72, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:23:44) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (20.9ms)
+Completed in 113ms (View: 109, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-13 22:23:50) [GET]
+
+ActionController::RoutingError (No route matches "/frontend/calendar/2009/10/1" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-13 22:23:58) [GET]
+
+ActionController::RoutingError (No route matches "/frontend/calendar/2009/10/10" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:24:24) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.1ms)
+Completed in 121ms (View: 117, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
