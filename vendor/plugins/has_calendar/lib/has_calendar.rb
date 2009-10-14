@@ -56,7 +56,7 @@ module SimplesIdeias
         
           head = content_tag(:thead) do
             content_tag(:tr) do
-              (0..6).collect { |i| content_tag(:th, Date::DAYNAMES[i]) } * ""
+              (0..6).collect { |i| content_tag(:th, Date::DAYNAMES[i] + content_tag(:a, nil, {:href=>'#checkbox', :class=>'fakecheck',:id=>'fakedotcom',:style=>'float:right'})) }
             end
           end
         
@@ -90,7 +90,7 @@ module SimplesIdeias
                 end
                 cols << content_tag(:td, col_options) do
                   day = options[:today] if options[:today] && date == today
-                  top = content_tag(:div,content_tag(:a, day, {:style=>'float:left;'}) + content_tag(:center, day_letter + content_tag(:a, nil, {:href=>'#checkbox', :class=>'fakecheck',:id=>'fakedotcom',:style=>'float:right'})),{:class =>'top'}) unless day.blank? || weekend
+                  top = content_tag(:div,content_tag(:a, day, {:style=>'float:left;text-decoration:none;color:green'}) + ((!weekend)?content_tag(:center, day_letter + content_tag(:a, nil, {:href=>'#checkbox', :class=>'fakecheck',:id=>'fakedotcom',:style=>'float:right'})):''),{:class =>'top'}) unless day.blank?
                   (top.nil?)? events : top + events
                 end
               end
