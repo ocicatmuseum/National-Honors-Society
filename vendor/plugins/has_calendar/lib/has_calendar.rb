@@ -63,7 +63,7 @@ module SimplesIdeias
           days.in_groups_of(7, "") do |group|
             rows << content_tag(:tr) do
               group.inject("") do |cols, day|
-                col_options = {:class => 'day', :style => (!day.blank?)? 'cursor:pointer;':'', :onclick => (!day.blank?)? "javascript:window.location='calendar/#{day}'" : ""}
+                col_options = {:class => 'day', :style => (!day.blank?)? 'cursor:pointer;':'', :onclick => (!day.blank?)? "javascript:window.location='/frontend/calendar/#{day}'" : ""}
                 events = ""
               
                 unless day.blank?

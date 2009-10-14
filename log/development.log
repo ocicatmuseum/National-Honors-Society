@@ -29391,3 +29391,11 @@ ActionController::UnknownAction (No action responded to calendar. Actions: index
   -e:2
 
 Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:24:33) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (111.8ms)
+Completed in 199ms (View: 195, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
