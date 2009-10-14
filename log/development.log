@@ -28917,3 +28917,477 @@ Rendering template within layouts/frontend
 Rendering frontend/base/index
 Rendered layouts/_login (3.3ms)
 Completed in 11ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Backend::SessionsController#create (for 127.0.0.1 at 2009-10-13 20:44:32) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"M03Qb1GbTo0R3ngO0fRGwvze72bc83eDsBjmajebl2Q=", "rememberme"=>"1", "password"=>"blackbelt1", "email"=>"swanyboy4@gmail.com"}
+  [4;36;1mAccount Load (1.2ms)[0m   [0;1mSELECT * FROM "accounts" WHERE (email = 'swanyboy4@gmail.com') LIMIT 1[0m
+Redirected to http://0.0.0.0:3002/backend
+Completed in 78ms (DB: 1) | 302 Found [http://0.0.0.0/backend/sessions]
+
+
+Processing Backend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:44:32) [GET]
+  [4;35;1mAccount Load (0.7ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/base/index
+Rendered layouts/_login (15.7ms)
+Completed in 260ms (View: 71, DB: 1) | 200 OK [http://0.0.0.0/backend]
+
+
+Processing JavascriptsController#locale to js (for 127.0.0.1 at 2009-10-13 20:44:32) [GET]
+Rendering javascripts/locale
+Completed in 79ms (View: 74, DB: 0) | 200 OK [http://0.0.0.0/javascripts/locale.js]
+
+
+Processing JavascriptsController#backend to js (for 127.0.0.1 at 2009-10-13 20:44:32) [GET]
+Rendering javascripts/backend
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Completed in 64ms (View: 58, DB: 1) | 200 OK [http://0.0.0.0/javascripts/backend.js]
+
+
+Processing BackendController#base (for 127.0.0.1 at 2009-10-13 20:44:33) [GET]
+  Parameters: {"id"=>"welcome"}
+  [4;35;1mAccount Load (0.7ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.7ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+
+ActionController::UnknownAction (No action responded to base. Actions: ):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Backend::AccountsController#index to js (for 127.0.0.1 at 2009-10-13 20:46:04) [GET]
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/accounts/index
+Completed in 94ms (View: 42, DB: 1) | 200 OK [http://0.0.0.0/backend/accounts.js]
+
+
+Processing Backend::AccountsController#index to json (for 127.0.0.1 at 2009-10-13 20:46:04) [GET]
+  Parameters: {"_"=>""}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mAccount Load (0.9ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."role" = 'administrator') [0m
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."role" = 'administrator') LIMIT 50[0m
+Completed in 214ms (View: 25, DB: 2) | 200 OK [http://0.0.0.0/backend/accounts.json]
+
+
+Processing Backend::AccountsController#index to js (for 127.0.0.1 at 2009-10-13 20:46:05) [GET]
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+Rendering backend/accounts/index
+Completed in 82ms (View: 7, DB: 1) | 200 OK [http://0.0.0.0/backend/accounts.js]
+
+
+Processing Backend::AccountsController#index to json (for 127.0.0.1 at 2009-10-13 20:46:05) [GET]
+  Parameters: {"_"=>""}
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) [0m
+  [4;35;1mAccount Load (0.4ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."role" = 'administrator') [0m
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."role" = 'administrator') LIMIT 50[0m
+Completed in 118ms (View: 1, DB: 2) | 200 OK [http://0.0.0.0/backend/accounts.json]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-13 20:51:34) [GET]
+Redirected to http://0.0.0.0:3002/frontend/base
+Completed in 4ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:51:34) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (30.3ms)
+
+ActionView::TemplateError (undefined method `calendar' for #<ActionView::Base:0xb71c3f9c>) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (37.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:51:54) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (85.4ms)
+Completed in 163ms (View: 160, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:52:29) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.2ms)
+Completed in 196ms (View: 191, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:52:59) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (28.8ms)
+Completed in 130ms (View: 126, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:53:00) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (132.2ms)
+Completed in 218ms (View: 214, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:55:35) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (26.7ms)
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Schedule) on line #23 of app/views/layouts/frontend.html.haml:
+20:             .entry
+21:               bla bla bla
+22:           - calendar :year => 2009, :month => 10, :header_format => :short_day_name do |date|
+23:             - for event in Schedule.find_by_date(date)
+24:               = link_to event.title, event_path(event)
+25:         / end #content 
+26:         #sidebar
+
+    app/views/layouts/frontend.html.haml:23:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `call'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers.rb:520:in `with_haml_buffer'
+    haml (2.2.6) lib/haml/helpers.rb:321:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:86:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:22:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (127.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:55:36) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (14.1ms)
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Schedule) on line #23 of app/views/layouts/frontend.html.haml:
+20:             .entry
+21:               bla bla bla
+22:           - calendar :year => 2009, :month => 10, :header_format => :short_day_name do |date|
+23:             - for event in Schedule.find_by_date(date)
+24:               = link_to event.title, event_path(event)
+25:         / end #content 
+26:         #sidebar
+
+    app/views/layouts/frontend.html.haml:23:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `call'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers.rb:520:in `with_haml_buffer'
+    haml (2.2.6) lib/haml/helpers.rb:321:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:86:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:22:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (118.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:55:46) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.0ms)
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Schedule) on line #23 of app/views/layouts/frontend.html.haml:
+20:             .entry
+21:               bla bla bla
+22:           - calendar :year => 2009, :month => 10 do |date|
+23:             - for event in Schedule.find_by_date(date)
+24:               = link_to event.title, event_path(event)
+25:         / end #content 
+26:         #sidebar
+
+    app/views/layouts/frontend.html.haml:23:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `call'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers.rb:520:in `with_haml_buffer'
+    haml (2.2.6) lib/haml/helpers.rb:321:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:86:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:22:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (132.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 20:56:10) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.0ms)
+Completed in 126ms (View: 122, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:08:48) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (86.1ms)
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Meetings) on line #23 of app/views/layouts/frontend.html.haml:
+20:             .entry
+21:               bla bla bla
+22:           - calendar :year => 2009, :month => 10 do |date|
+23:             - for event in Meetings.find_by_date(date)
+24:               = link_to event.title, {:controller => 'event', :action => 'index', :id => event.id}
+25:         / end #content 
+26:         #sidebar
+
+    app/views/layouts/frontend.html.haml:23:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `call'
+    haml (2.2.6) lib/haml/helpers.rb:325:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers.rb:520:in `with_haml_buffer'
+    haml (2.2.6) lib/haml/helpers.rb:321:in `capture_haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:86:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:22:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (56.0ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:09:09) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (28.7ms)
+Completed in 205ms (View: 200, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:11:52) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (85.6ms)
+Completed in 149ms (View: 146, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:12:20) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (34.5ms)
+Completed in 151ms (View: 148, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:16:42) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (34.2ms)
+Completed in 150ms (View: 147, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:16:44) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:16:49) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:16:54) [GET]
+  Parameters: {"id"=>"7"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:16:58) [GET]
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:18:33) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (34.3ms)
+Completed in 183ms (View: 181, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:19:34) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (85.1ms)
+Completed in 148ms (View: 146, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:21:35) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.7ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.5ms)
+Completed in 107ms (View: 102, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:21:38) [GET]
+  Parameters: {"id"=>"6"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:22:15) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.5ms)
+Completed in 111ms (View: 106, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:22:56) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (97.3ms)
+Completed in 147ms (View: 143, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:23:02) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:23:05) [GET]
+  Parameters: {"id"=>"2"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:23:09) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:23:50) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.8ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (29.4ms)
+Completed in 134ms (View: 129, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:24:04) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
