@@ -32232,3 +32232,17 @@ Rendering template within layouts/frontend
 Rendering frontend/base/index
 Rendered layouts/_login (7.7ms)
 Completed in 126ms (View: 124, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-14 18:29:37) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-14 18:30:53) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (88.0ms)
+Completed in 179ms (View: 175, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
