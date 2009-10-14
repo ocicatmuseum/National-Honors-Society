@@ -8,7 +8,7 @@
   %body
     = render :partial => '/layouts/login'
     #cal{:style=>'display: none;opacity: 0;position: fixed; top: 5%; left: 5%; width: 90%; height: 90%;background: #ff0;z-index: 5;'}
-      = calendar :year => 2009, :month => 10
+      = calendar :header_format => '%w', :caption_format => :month_year
     #wrapper{:style=>'padding-top: 1px'}
       #page
         #content{:style=>'margin-top: -20px'}

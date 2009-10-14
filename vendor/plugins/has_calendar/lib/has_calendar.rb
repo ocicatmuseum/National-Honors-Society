@@ -32,6 +32,7 @@ module SimplesIdeias
           end
           holder
         end
+        days.unshift(nil)
         
         # group all records if data is provided
         if options[:events]
@@ -54,7 +55,7 @@ module SimplesIdeias
         
           head = content_tag(:thead) do
             content_tag(:tr) do
-              (0..6).collect { |i| content_tag(:th, l(date + i.days, :format => options[:header_format])) } * ""
+              (0..6).collect { |i| content_tag(:th, Date::DAYNAMES[i]) } * ""
             end
           end
         

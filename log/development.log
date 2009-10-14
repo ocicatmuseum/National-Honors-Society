@@ -29399,3 +29399,180 @@ Rendering frontend/base/index
   [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
 Rendered layouts/_login (111.8ms)
 Completed in 199ms (View: 195, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:28:02) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.3ms)
+Completed in 107ms (View: 103, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:29:05) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.3ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (25.3ms)
+Completed in 93ms (View: 89, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing FrontendController#calendar (for 127.0.0.1 at 2009-10-13 21:31:25) [GET]
+  Parameters: {"id"=>"4"}
+
+ActionController::UnknownAction (No action responded to calendar. Actions: index):
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:31:54) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.3ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (15.2ms)
+Completed in 60ms (View: 57, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:31:58) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (28.0ms)
+Completed in 184ms (View: 179, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:32:49) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.9ms)
+Completed in 131ms (View: 125, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:36:05) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.5ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (34.2ms)
+Completed in 149ms (View: 147, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:41:06) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (85.8ms)
+Completed in 170ms (View: 167, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:45:48) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (88.2ms)
+Completed in 170ms (View: 166, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:45:56) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.2ms)
+Completed in 104ms (View: 99, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:46:15) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (36.0ms)
+Completed in 151ms (View: 149, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:47:45) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (86.1ms)
+Completed in 148ms (View: 144, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:48:41) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.5ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (27.4ms)
+Completed in 110ms (View: 105, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:52:01) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (35.3ms)
+
+ActionView::TemplateError (can't convert Fixnum into String) on line #14 of app/views/layouts/frontend.html.haml:
+11:       = calendar :header_format => '%w', :caption_format => :month_year
+12:     #wrapper{:style=>'padding-top: 1px'}
+13:       #page
+14:         #content{:style=>'margin-top: -20px'}
+15:           #calendar{:style=>'width: 500px; height: 300px; background: #ff0;'}
+16:             #cover{:style=>'cursor:pointer;background: #000;opacity: .6;font-size:40pt;height:100%;width:100%;',:onmouseover=>'this.style.opacity = .1;', :onmouseout=>'this.style.opacity = .6;'}
+17:               %p{:style=>'padding: 20% 30%;cursor:pointer;'}Calendar
+
+    app/views/layouts/frontend.html.haml:14:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:52:27) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (26.7ms)
+
+ActionView::TemplateError (can't convert Fixnum into String) on line #14 of app/views/layouts/frontend.html.haml:
+11:       = calendar :header_format => '%w', :caption_format => :month_year
+12:     #wrapper{:style=>'padding-top: 1px'}
+13:       #page
+14:         #content{:style=>'margin-top: -20px'}
+15:           #calendar{:style=>'width: 500px; height: 300px; background: #ff0;'}
+16:             #cover{:style=>'cursor:pointer;background: #000;opacity: .6;font-size:40pt;height:100%;width:100%;',:onmouseover=>'this.style.opacity = .1;', :onmouseout=>'this.style.opacity = .6;'}
+17:               %p{:style=>'padding: 20% 30%;cursor:pointer;'}Calendar
+
+    app/views/layouts/frontend.html.haml:14:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (138.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:52:36) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (87.2ms)
+Completed in 147ms (View: 145, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 21:56:36) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (88.2ms)
+Completed in 155ms (View: 152, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
