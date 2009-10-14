@@ -454,16 +454,26 @@ h2 a {
 	text-decoration: underline;
 	color: #82A2B9;
 }
+.calendar {
+	width: 100%;
+	height: 100%;
+}
 .day {
 	height: 100px;
 	width: 100px;
 	background-color:#32639A;
 	border: #000 dashed thin;
-	font:"Arial Black";
-	font-size: 20pt;
+	font-size: 18pt;
 	color:#C5E8FF;
 }
-
+.day .top {
+	margin-top: -61px;
+	text-align:left;
+	float:left;
+	border-bottom:#000 solid thin;
+	width:100%;
+	background-color:blue;
+}
 .day.today {
 	background-color:green;
 }
@@ -490,4 +500,28 @@ h2 a {
 }
 #cover:hover {
 	opacity: .1;
+}
+
+/* fake checkbox : unchecked (default/base) state */
+.fakecheck {
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	outline: none;
+	background: url(/images/checkbox.gif) no-repeat;
+	height: 16px;
+	width: auto;
+	display: block;
+	float: left;
+	padding: 1px 0px 0px 20px;
+	color: #666666;
+	margin-top:5px;
+}
+/* fake checkbox : hover state */
+.fakecheck:hover {
+	color:#0066FF;
+	text-decoration: underline;
+}
+/* fake checkbox : checked state */
+.fakechecked {
+	background-position: left -25px;
 }

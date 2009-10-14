@@ -12,7 +12,8 @@ module SimplesIdeias
           :caption_format => :default,
           :id => "calendar"
         }.merge(options)
-      
+        
+        day_letter = "A"
         cmd = 'cal '
         cmd << '-m ' unless RUBY_PLATFORM =~ /darwin/
       
@@ -64,15 +65,18 @@ module SimplesIdeias
           days.in_groups_of(7, "") do |group|
             rows << content_tag(:tr) do
               group.inject("") do |cols, day|
-                col_options = {:class => 'day', :style => (!day.blank?)? 'cursor:pointer;':'', :onclick => (!day.blank?)? "javascript:window.location='/frontend/calendar/#{options[:year]}/#{options[:month]}/#{day}'" : ""}
+                col_options = {:class => 'day', :style => (!day.blank?)? 'cursor:pointer;':''}
                 events = ""
-              
+                weekend = false
                 unless day.blank?
                   date = Date.new(options[:year], options[:month], day.to_i)
+                  weekend = [0,6].include?(date.wday)
                   col_options[:class] << ' today' if today == date
-                  col_options[:class] << ' weekend' if [0,6].include?(date.wday)
+                  col_options[:class] << ' weekend' if weekend
+                  
                 end
-               
+               day_letter = day_letter.succ if day != 1 && !weekend && !day.blank?
+               day_letter = 'A' if day_letter == 'F'
                 col_options[:class] << ' other' if day.blank?
                 
                 if block_given? && !day.blank?
@@ -84,11 +88,10 @@ module SimplesIdeias
                   
                   col_options[:class] << ' events' unless events.blank?
                 end
-              
                 cols << content_tag(:td, col_options) do
                   day = options[:today] if options[:today] && date == today
-                  span = content_tag(:span, day)
-                  span + events
+                  top = content_tag(:div,content_tag(:a, day, {:style=>'float:left;'}) + content_tag(:center, day_letter + content_tag(:a, nil, {:href=>'#checkbox', :class=>'fakecheck',:id=>'fakedotcom',:style=>'float:right'})),{:class =>'top'}) unless day.blank? || weekend
+                  (top.nil?)? events : top + events
                 end
               end
             end
