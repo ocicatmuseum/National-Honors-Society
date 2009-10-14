@@ -29694,3 +29694,35 @@ ActionController::RoutingError (No route matches "/frontend/calendar/2009/10/7" 
   -e:2
 
 Rendering rescues/layout (not_found)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:05:47) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (28.7ms)
+Completed in 159ms (View: 155, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:06:44) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.6ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (28.6ms)
+Completed in 94ms (View: 89, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:11:06) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;36;1mAccount Load (0.4ms)[0m   [0;1mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (86.6ms)
+Completed in 150ms (View: 148, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-13 22:12:03) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+  [4;35;1mAccount Load (0.6ms)[0m   [0mSELECT * FROM "accounts" WHERE ("accounts"."id" = 1) LIMIT 1[0m
+Rendered layouts/_login (28.2ms)
+Completed in 167ms (View: 162, DB: 1) | 200 OK [http://0.0.0.0/frontend/base]

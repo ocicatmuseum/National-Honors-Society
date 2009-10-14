@@ -457,7 +457,7 @@ h2 a {
 .day {
 	height: 100px;
 	width: 100px;
-	background-color: #32639A;
+	background-color:#32639A;
 	border: #000 dashed thin;
 	font:"Arial Black";
 	font-size: 20pt;
@@ -466,4 +466,12 @@ h2 a {
 
 .day.today {
 	background-color:green;
+}
+
+.day.weekend {
+	background-color: red;
+}
+
+.day.other {
+	background-color:#DEDEDE;
 }

@@ -72,7 +72,9 @@ module SimplesIdeias
                   col_options[:class] << ' today' if today == date
                   col_options[:class] << ' weekend' if [0,6].include?(date.wday)
                 end
-              
+               
+                col_options[:class] << ' other' if day.blank?
+                
                 if block_given? && !day.blank?
                   if options[:events]
                     events = capture(date, records[date.to_s(:number)], &block)
