@@ -63,15 +63,28 @@ module SimplesIdeias
           # then get the body
           rows = ""
           days.in_groups_of(7, "") do |group|
+            one = 0
+            group.each_with_index do |g, i|
+              if g == '1'
+                one = i
+                break
+              end
+            end
+            one.times do |x|
+              group[x] = 27 + x
+            end
             rows << content_tag(:tr) do
               group.inject("") do |cols, day|
-                col_options = {:class => 'day', :style => (!day.blank?)? 'cursor:pointer;':''}
+                col_options = {:class => 'day'}
                 events = ""
                 weekend = false
                 unless day.blank?
                   date = Date.new(options[:year], options[:month], day.to_i)
                   weekend = [0,6].include?(date.wday)
                   col_options[:class] << ' today' if today == date
+                  if one != 0
+                    col_options[:class] << ' other' if day.to_i <= one + 27 && day.to_i >= 27
+                  end
                   col_options[:class] << ' weekend' if weekend
                   
                 end
@@ -90,7 +103,7 @@ module SimplesIdeias
                 end
                 cols << content_tag(:td, col_options) do
                   day = options[:today] if options[:today] && date == today
-                  top = content_tag(:div,content_tag(:a, day, {:style=>'float:left;text-decoration:none;color:green'}) + ((!weekend)?content_tag(:center, day_letter + content_tag(:a, nil, {:href=>'#checkbox', :class=>'fakecheck',:id=>'fakedotcom',:style=>'float:right'})):''),{:class =>'top'}) unless day.blank?
+                  top = content_tag(:div,content_tag(:a, day, {:style=>'float:left;text-decoration:none;color:#fff'}) + ((!weekend)?content_tag(:center, day_letter + content_tag(:a, nil, {:href=>'#checkbox', :class=>'fakecheck',:id=>'fakedotcom',:style=>'float:right'})):''),{:class =>'top'}) unless day.blank?
                   (top.nil?)? events : top + events
                 end
               end

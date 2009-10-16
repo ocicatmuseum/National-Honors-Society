@@ -34,5 +34,7 @@ $(document).ready(function() {
 	$(".day").click(function(){
 		($(this).find(".fakecheck").hasClass('fakechecked')) ? $(this).find(".fakecheck").removeClass('fakechecked') : $(this).find(".fakecheck").addClass('fakechecked');
 	});
-		
+	$(".day").hover(function(){
+		$(this).highlight();
+	});
 });

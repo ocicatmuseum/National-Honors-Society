@@ -32246,3 +32246,814 @@ Rendering template within layouts/frontend
 Rendering frontend/base/index
 Rendered layouts/_login (88.0ms)
 Completed in 179ms (View: 175, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-14 18:31:30) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-15 18:56:34) [GET]
+Redirected to http://127.0.0.1:3000/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 18:56:35) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (53.2ms)
+Completed in 331ms (View: 327, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 18:57:59) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 72ms (View: 67, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:00:07) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (86.7ms)
+Completed in 161ms (View: 157, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:01:28) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:02:49) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 76ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:03:57) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 143ms (View: 138, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:04:16) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:04:39) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 136ms (View: 132, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:05:08) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:06:49) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 76ms (View: 71, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:07:16) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 142ms (View: 138, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:07:49) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:08:37) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 137ms (View: 133, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:08:48) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:09:22) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.0ms)
+Completed in 115ms (View: 111, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:10:46) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:11:06) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.5ms)
+Completed in 76ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:11:23) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.5ms)
+Completed in 146ms (View: 142, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:11:47) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:12:36) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 155ms (View: 151, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:12:48) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:13:07) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 47ms (View: 42, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:13:41) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:14:14) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 76ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:17:20) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 162ms (View: 158, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:18:07) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 72ms (View: 69, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:18:18) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 136ms (View: 132, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:18:26) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:19:17) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (1.6ms)
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:22:27) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.8ms)
+Completed in 187ms (View: 185, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:22:28) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:23:24) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 154ms (View: 149, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:25:04) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:25:43) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.8ms)
+Completed in 127ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:26:22) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:27:45) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (11.7ms)
+Completed in 109ms (View: 105, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-15 19:49:02) [GET]
+Redirected to http://0.0.0.0:3000/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:49:02) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (2.8ms)
+Completed in 69ms (View: 65, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:49:15) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.4ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (51.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:50:18) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.8ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:50:19) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (162.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:51:36) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.7ms)
+
+ActionView::TemplateError (undefined local variable or method `x' for #<ActionView::Base:0xb7079f38>) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (47.7ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:51:37) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+
+ActionView::TemplateError (undefined local variable or method `x' for #<ActionView::Base:0xb70ecfc4>) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (139.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:51:47) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+
+ActionView::TemplateError (undefined local variable or method `x' for #<ActionView::Base:0xb72900d8>) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (87.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:51:55) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.3ms)
+Completed in 129ms (View: 127, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:52:30) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (8.7ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (52.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:53:37) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.2ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (51.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:53:38) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (162.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:54:01) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.7ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (55.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:54:02) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+
+ActionView::TemplateError (invalid date) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    /usr/lib/ruby/1.8/date.rb:752:in `new'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (161.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:54:34) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.7ms)
+Completed in 130ms (View: 128, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:59:13) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.8ms)
+
+ActionView::TemplateError (comparison of String with 31 failed) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (51.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:59:14) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+
+ActionView::TemplateError (comparison of String with 31 failed) on line #44 of app/views/layouts/frontend.html.haml:
+41:       #footer
+42:         %p
+43:           (c) 2009 Sitename.com. Developed by
+44:           %a{:href=>'http://www.nodethirtythree.com'} Solehi Dev
+45:       / end #footer 
+
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:106:in `content_tag'
+    app/views/layouts/frontend.html.haml:44:in `_run_haml_app47views47layouts47frontend46html46haml'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (137.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 19:59:56) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (8.5ms)
+Completed in 183ms (View: 180, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:00:41) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 77ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-15 20:00:50) [GET]
+Redirected to http://0.0.0.0:3000/frontend/base
+Completed in 3ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:00:50) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 73ms (View: 69, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:00:59) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.6ms)
+Completed in 127ms (View: 125, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:02:16) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 75ms (View: 70, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:03:20) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 132ms (View: 129, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:03:41) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 73ms (View: 69, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-15 20:04:12) [GET]
+Redirected to http://127.0.0.1:3000/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:04:12) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 76ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:04:20) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 152ms (View: 147, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:05:18) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 79ms (View: 76, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:05:28) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.0ms)
+Completed in 149ms (View: 145, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:06:00) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.0ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:06:46) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 78ms (View: 73, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-15 20:07:26) [GET]
+Redirected to http://0.0.0.0:3000/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://0.0.0.0/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:07:26) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 141ms (View: 137, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:07:40) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (6.9ms)
+Completed in 127ms (View: 124, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:08:40) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:09:02) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 130ms (View: 126, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:10:15) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:10:37) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 76ms (View: 72, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-15 20:11:12) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 142ms (View: 138, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]

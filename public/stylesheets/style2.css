@@ -459,20 +459,26 @@ h2 a {
 	height: 100%;
 }
 .day {
+	cursor: pointer;
+	vertical-align:top;
 	height: 100px;
 	width: 100px;
 	background-color:#32639A;
-	border: #000 dashed thin;
-	font-size: 18pt;
+	font: 18pt Times;
 	color:#C5E8FF;
 }
 .day .top {
-	margin-top: -61px;
+	margin: -1px -1px;
 	text-align:left;
 	float:left;
+	border-left: blue solid 1px;
+	border-right: blue solid 1px;
 	border-bottom:#000 solid thin;
 	width:100%;
 	background-color:blue;
+}
+.day.other .top{
+	background-color: #B9B9B9;
 }
 .day.today {
 	background-color:green;
@@ -480,10 +486,12 @@ h2 a {
 
 .day.weekend {
 	background-color: red;
+	cursor: default;
 }
 
 .day.other {
 	background-color:#DEDEDE;
+	cursor: default;
 }
 #calendar-main{
 	width: 500px;
