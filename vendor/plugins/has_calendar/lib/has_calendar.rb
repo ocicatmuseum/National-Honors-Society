@@ -14,9 +14,8 @@ module SimplesIdeias
         }.merge(options)
         
         day_letter = "A"
-        cmd = 'cal '
-        cmd << '-m ' unless RUBY_PLATFORM =~ /darwin/
-      
+        cmd = 'cal'
+        
         # execute the command
         output = IO.popen("#{cmd} #{options[:month]} #{options[:year]}").read
       
@@ -33,7 +32,6 @@ module SimplesIdeias
           end
           holder
         end
-        days.unshift(nil)
         
         # group all records if data is provided
         if options[:events]
@@ -44,7 +42,7 @@ module SimplesIdeias
             memo
           end
         end
-      
+        
         # building the calendar
         contents = content_tag(:table, :id => options[:id], :class => 'calendar') do
           # first, get the header
@@ -52,7 +50,7 @@ module SimplesIdeias
           date = today.beginning_of_week
           date = date - 1.day if RUBY_PLATFORM =~ /darwin/
         
-          caption = content_tag(:caption, Date::MONTHNAMES[options[:month]])
+          caption = content_tag(:caption, Date::MONTHNAMES[options[:month]], {:style=>'background-color:#66cccc;font: 24pt "Times New Roman" ;border-bottom: #000000 solid thin'})
         
           head = content_tag(:thead) do
             content_tag(:tr) do

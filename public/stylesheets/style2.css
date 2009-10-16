@@ -398,7 +398,7 @@ h2 a {
 	height: 255px;
 	margin: 0 auto;
 	padding: 60px 50px 0px 50px;
-	font-size: 12px;
+	font-size: 18px;
 	color: #887450;
 	margin-top: 20px;
 }
@@ -457,13 +457,14 @@ h2 a {
 .calendar {
 	width: 100%;
 	height: 100%;
+	background-color:#66cccc;
 }
 .day {
 	cursor: pointer;
 	vertical-align:top;
 	height: 100px;
 	width: 100px;
-	background-color:#32639A;
+	background-color:#3366ff;
 	font: 18pt Times;
 	color:#C5E8FF;
 }
@@ -471,28 +472,37 @@ h2 a {
 	margin: -1px -1px;
 	text-align:left;
 	float:left;
-	border-left: blue solid 1px;
-	border-right: blue solid 1px;
-	border-bottom:#000 solid thin;
+	border-left: #ffff00 solid thin;
+	border-bottom: #ffff00 solid thin;
 	width:100%;
-	background-color:blue;
+	background-color:#6699ff;
 }
-.day.other .top{
-	background-color: #B9B9B9;
-}
+
 .day.today {
-	background-color:green;
+	background-color:#0000cc;
+}
+.day.today .top {
+	background-color: #0066cc;
 }
 
 .day.weekend {
-	background-color: red;
+	background-color:#32639A;
 	cursor: default;
+}
+.day.weekend .top {
+	background-color:#6699ff;
 }
 
 .day.other {
 	background-color:#DEDEDE;
 	cursor: default;
 }
+.day.other .top {
+	background-color: #B9B9B9;
+	border-left: #b9b9b9 solid thin;
+	border-bottom: #b9b9b9 solid thin;
+}
+
 #calendar-main{
 	width: 500px;
 	height: 300px;
@@ -532,4 +542,29 @@ h2 a {
 /* fake checkbox : checked state */
 .fakechecked {
 	background-position: left -25px;
+}
+
+
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
 }
