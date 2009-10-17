@@ -35020,3 +35020,191 @@ Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_t
 
 Processing Frontend::BaseController#bar_sketch (for 127.0.0.1 at 2009-10-16 22:45:47) [GET]
 Completed in 5ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/bar_sketch]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:10:44) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.4ms)
+Completed in 130ms (View: 128, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:10:45) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-16 23:15:30) [GET]
+Redirected to http://127.0.0.1:3000/frontend/base
+Completed in 4ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:15:30) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (36.5ms)
+Completed in 195ms (View: 190, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:15:31) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:15:31) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:15:49) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:15:50) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:15:50) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing FrontendController#index (for 127.0.0.1 at 2009-10-16 23:16:15) [GET]
+Redirected to http://127.0.0.1:3000/frontend/base
+Completed in 5ms (DB: 0) | 302 Found [http://127.0.0.1/]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:16:15) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:16:16) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:17:27) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (86.9ms)
+Completed in 157ms (View: 153, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:17:27) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:17:27) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:17:37) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 159ms (View: 155, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:17:38) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:17:38) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:18:01) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 88ms (View: 84, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:18:01) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:18:02) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:18:17) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:18:18) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:18:21) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 73ms (View: 69, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:18:22) [GET]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:18:22) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 137ms (View: 133, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:18:23) [GET]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:21:41) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 46ms (View: 42, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:21:42) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:21:43) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.4ms)
+Completed in 72ms (View: 68, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:21:44) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:23:21) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 151ms (View: 147, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:23:22) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 23:23:34) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:23:34) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 23:23:34) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/frontend/base/extra_tt]
