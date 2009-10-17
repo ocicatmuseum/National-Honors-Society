@@ -22,6 +22,7 @@ class Frontend::BaseController < FrontendController
   end
   
   g = Graph.new
+  g.set_bg_color '#FFFFFF'
   g.title("Your Hours", "{font-size: 20px; color: #736AFF}")
   g.data_sets << data_1
   g.data_sets << data_2
@@ -33,8 +34,29 @@ class Frontend::BaseController < FrontendController
   g.set_y_max(20)
   g.set_y_label_steps(4)
   g.set_y_legend("Hours", 12, "#736AFF")
-  
   render :text => g.render
 end
+def bar_sketch
+  bar = BarSketch.new(55,6,'#d070ac', '#000000')
+  bar.key('2006', 10)
 
+  10.times do |t|
+          bar.data << rand(7) + 2
+  end
+
+  g = Graph.new
+  g.title("Sketch Bar", '{font-size:20px; color: #ffffff; margin:10px; background-color: #d070ac; padding: 5px 15px 5px 15px;}' )
+  g.set_bg_color('#fdfdfd')
+  g.data_sets << bar
+
+  g.set_x_axis_color('#e0e0e0', '#e0e0e0')
+  g.set_x_tick_size(9)
+  g.set_y_axis_color('#e0e0e0', '#e0e0e0')
+  g.set_x_labels(%w(Jan Feb Mar Apr May Jun Jul Aug Sep Oct))
+  g.set_x_label_style(11,'#303030')
+  g.set_y_label_style(11,'#303030')
+  g.set_y_max(10)
+  g.set_y_label_steps(5)
+  render :text => g.render
+end
 end

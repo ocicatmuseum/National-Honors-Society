@@ -1,3 +1,5 @@
+require "cgi"
+require "digest"
 class Graph
   require 'md5'
   attr_accessor :data_sets, :data

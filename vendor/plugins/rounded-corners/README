@@ -1,0 +1,38 @@
+RounedCorners
+=============
+
+A plugin for creating rounded corners
+
+Usage
+=====
+
+Example Controller: 
+	* Note caching the call to RoundedCorners.generate is recommended 
+
+class RoundedCornersController < ApplicationController
+
+  def show
+    #http://groups-beta.google.com/groups/roundedcorners?c=999999&bc=white&w=50&h=50&a=tr
+    # c - color
+    # bc - background color
+    # h - height
+    # w - width
+    # a - corner tl = top left, tr = top right, bl = bottom left, br = bottom right
+
+    color             = !params[:c].nil?  ? params[:c]  : "bbbbbb"
+    background_color  = !params[:bc].nil? ? params[:bc] : "ffffff"
+    height            = !params[:h].nil?  ? params[:h]  : "20"
+    width             = !params[:w].nil?  ? params[:w]  : "20"
+    corner            = !params[:a].nil?  ? params[:a]  : "tl"
+
+    send_data( 
+          RoundedCorners.generate( color, background_color, height, width, corner ),
+          :type => "image/png", :disposition => "inline" )
+  end
+  
+end
+
+Example img link in rhtml file:
+
+<img src="/rounded_corners/show?c=ffbb22&bc=000000&w=30&h=30&a=bl" />
+

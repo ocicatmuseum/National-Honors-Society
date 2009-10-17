@@ -34834,3 +34834,189 @@ Completed in 174ms (View: 170, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
 
 Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 21:37:01) [GET]
 Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 21:56:01) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 139ms (View: 134, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 21:56:02) [GET]
+
+NoMethodError (undefined method `bg_color=' for #<Graph:0xb70c74e0>):
+  app/controllers/frontend/base_controller.rb:36:in `extra_tt'
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (62.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 21:56:19) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.0ms)
+Completed in 76ms (View: 71, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 21:56:20) [GET]
+
+NoMethodError (undefined method `bg_colour=' for #<Graph:0xb70f0d68>):
+  app/controllers/frontend/base_controller.rb:36:in `extra_tt'
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (50.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:04:56) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:04:56) [GET]
+
+NoMethodError (undefined method `bg_color' for #<Graph:0xb7101e60>):
+  app/controllers/frontend/base_controller.rb:25:in `extra_tt'
+  haml (2.2.6) lib/sass/plugin/rails.rb:19:in `process'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:06:28) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:06:29) [GET]
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:30:59) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (23.8ms)
+Completed in 266ms (View: 262, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:31:00) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:33:46) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.0ms)
+Completed in 68ms (View: 64, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:33:47) [GET]
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:35:30) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.0ms)
+Completed in 171ms (View: 168, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:35:31) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:43:55) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (7.2ms)
+Completed in 130ms (View: 128, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:43:55) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:43:56) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 70ms (View: 66, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:43:56) [GET]
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:45:23) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 92ms (View: 87, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:45:23) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#bar_sketch (for 127.0.0.1 at 2009-10-16 22:45:24) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/bar_sketch]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:45:35) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.3ms)
+Completed in 74ms (View: 70, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#bar_sketch (for 127.0.0.1 at 2009-10-16 22:45:35) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/bar_sketch]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:45:35) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:45:40) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.2ms)
+Completed in 155ms (View: 150, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:45:41) [GET]
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#bar_sketch (for 127.0.0.1 at 2009-10-16 22:45:41) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/bar_sketch]
+
+
+Processing Frontend::BaseController#index (for 127.0.0.1 at 2009-10-16 22:45:46) [GET]
+Rendering template within layouts/frontend
+Rendering frontend/base/index
+Rendered layouts/_login (3.1ms)
+Completed in 142ms (View: 137, DB: 0) | 200 OK [http://0.0.0.0/frontend/base]
+
+
+Processing Frontend::BaseController#extra_tt (for 127.0.0.1 at 2009-10-16 22:45:47) [GET]
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/extra_tt]
+
+
+Processing Frontend::BaseController#bar_sketch (for 127.0.0.1 at 2009-10-16 22:45:47) [GET]
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/frontend/base/bar_sketch]
