@@ -36,6 +36,7 @@ class Frontend::BaseController < FrontendController
   g.set_y_legend("Hours", 12, "#736AFF")
   render :text => g.render
 end
+
 def bar_sketch
   bar = BarSketch.new(55,6,'#d070ac', '#000000')
   bar.key('2006', 10)

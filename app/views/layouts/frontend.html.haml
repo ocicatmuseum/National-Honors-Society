@@ -3,7 +3,7 @@
   %head
     %meta{'http-equiv' => 'X-UA-Compatible', :content => 'chrome=1'}
     %title NHS Web Frontend
-    =stylesheet_link_tag 'style2', 'slide'
+    =stylesheet_link_tag 'frontend', 'slide', 'calendar'
     =javascript_include_tag 'jquery', 'slide', 'reflection', 'swfobject'
   %body
     = render :partial => '/layouts/login'
@@ -12,17 +12,7 @@
     #wrapper{:style=>'padding-top: 1px'}
       #page
         #content{:style=>'margin-top: -20px'}
-          #calendar-main
-            #cover
-              %p{:style=>'padding: 20% 30%'}Calendar
-          .post
-            %h2.title National Honor Society
-            %p.meta Southern Lehigh
-            .entry
-              This graph is the basis for the student pages in which students can see where they stand compared to their goals, requirements, and other students
-              %br
-              %br
-              = @graph
+          = yield
         / end #content 
         #sidebar
           #dabox

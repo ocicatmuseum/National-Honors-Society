@@ -50,7 +50,7 @@ module SimplesIdeias
           date = today.beginning_of_week
           date = date - 1.day if RUBY_PLATFORM =~ /darwin/
         
-          caption = content_tag(:caption, Date::MONTHNAMES[options[:month]], {:style=>'background-color:#66cccc;font: 24pt "Times New Roman" ;border-bottom: #000000 solid thin'})
+          caption = content_tag(:caption, Date::MONTHNAMES[options[:month]], {:style=>'background-color:#66cccc;font: 24pt "Times New Roman" ;border-bottom: #000000 solid thin;-webkit-border-top-left-radius:20px;-webkit-border-top-right-radius:20px;-moz-border-top-left-radius:20px;-moz-border-top-right-radius:20px;behavior:url(border-radius.htc);'})
         
           head = content_tag(:thead) do
             content_tag(:tr) do

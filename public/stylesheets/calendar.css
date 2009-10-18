@@ -1,0 +1,120 @@
+.calendar {
+	width: 100%;
+	height: 100%;
+	background-color:#66cccc;
+}
+.day {
+	cursor: pointer;
+	vertical-align:top;
+	height: 100px;
+	width: 100px;
+	background-color:#3366ff;
+	font: 18pt Times;
+	color:#C5E8FF;
+}
+.day .top {
+	margin: -1px -1px;
+	text-align:left;
+	float:left;
+	border-left: #ffff00 solid thin;
+	border-bottom: #ffff00 solid thin;
+	width:100%;
+	background-color:#6699ff;
+}
+
+.day.today {
+	background-color:#0000cc;
+}
+.day.today .top {
+	background-color: #0066cc;
+}
+
+.day.weekend {
+	background-color:#32639A;
+	cursor: default;
+}
+.day.weekend .top {
+	background-color:#6699ff;
+}
+
+.day.other {
+	background-color:#DEDEDE;
+	cursor: default;
+}
+.day.other .top {
+	background-color: #B9B9B9;
+	border-left: #b9b9b9 solid thin;
+	border-bottom: #b9b9b9 solid thin;
+}
+
+#calendar-main{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	behavior:url(border-radius.htc);
+	width: 500px;
+	height: 300px;
+	background: #ff0;
+}
+#cover {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	behavior:url(border-radius.htc);
+	cursor:pointer;
+	background: #000;
+	opacity: .6;
+	font-size:40pt;
+	height:100%;
+	width:100%;
+}
+#cover:hover {
+	opacity: .1;
+}
+
+/* fake checkbox : unchecked (default/base) state */
+.fakecheck {
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	outline: none;
+	background: url(/images/checkbox.gif) no-repeat;
+	height: 16px;
+	width: auto;
+	display: block;
+	float: left;
+	padding: 1px 0px 0px 20px;
+	color: #666666;
+	margin-top:5px;
+}
+/* fake checkbox : hover state */
+.fakecheck:hover {
+	color:#0066FF;
+	text-decoration: underline;
+}
+/* fake checkbox : checked state */
+.fakechecked {
+	background-position: left -25px;
+}
+
+
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
